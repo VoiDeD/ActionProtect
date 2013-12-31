@@ -72,7 +72,7 @@ bool ActionProtect::SDK_OnMetamodUnload(char *error, size_t maxlength)
 
 void ActionProtect::ClientCommandKeyValues( edict_t *pEntity, KeyValues *pKeyValues )
 {
-	if ( !pEntity || !pKeyValues | !pKeyValues->GetName() )
+	if ( !pEntity || !pKeyValues || !pKeyValues->GetName() )
 		return;
 
 	int client = gamehelpers->IndexOfEdict( pEntity );
