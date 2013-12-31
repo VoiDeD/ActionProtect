@@ -40,7 +40,7 @@
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"ActionProtect"
 #define SMEXT_CONF_DESCRIPTION	"ActionProtect"
-#define SMEXT_CONF_VERSION		"0.0.0.1"
+#define SMEXT_CONF_VERSION		"0.2"
 #define SMEXT_CONF_AUTHOR		"VoiDeD"
 #define SMEXT_CONF_URL			"http://saxtonhell.com"
 #define SMEXT_CONF_LOGTAG		"ACTPRO"
