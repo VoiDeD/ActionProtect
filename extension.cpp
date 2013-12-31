@@ -77,7 +77,7 @@ void ActionProtect::ClientCommandKeyValues( edict_t *pEntity, KeyValues *pKeyVal
 
 	int client = gamehelpers->IndexOfEdict( pEntity );
 
-	if ( V_strstr( pKeyValues->GetName(), "use_action_slot_item" ) != NULL )
+	if ( V_stristr( pKeyValues->GetName(), "use_action_slot_item" ) != NULL )
 	{
 		int targetEnt = pKeyValues->GetInt( "entindex" );
 
