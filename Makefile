@@ -96,7 +96,7 @@ else
 endif
 
 ifeq "$(USEMETA)" "true"
-	LINK_HL2 = $(LIB_PREFIX)vstdlib_srv$(LIB_SUFFIX) $(LIB_PREFIX)tier0_srv$(LIB_SUFFIX)
+	LINK_HL2 = $(LIB_PREFIX)vstdlib_srv$(LIB_SUFFIX) $(LIB_PREFIX)tier0_srv$(LIB_SUFFIX) $(HL2LIB)/tier1_i486.a
 
 	LINK += $(LINK_HL2)
 
