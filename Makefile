@@ -88,7 +88,7 @@ else
 endif
 
 # if ENGINE is orig, OB, or L4D
-ifneq (,$(filter original orangebox left4dead,$(ENGINE)))
+ifneq (,$(filter original left4dead,$(ENGINE)))
 	LIB_SUFFIX = _i486.$(LIB_EXT)
 else
 	LIB_PREFIX = lib
